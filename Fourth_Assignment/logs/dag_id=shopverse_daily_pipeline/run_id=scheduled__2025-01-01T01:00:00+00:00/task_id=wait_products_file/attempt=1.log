@@ -1,0 +1,199 @@
+[2025-12-08T14:58:47.577+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: shopverse_daily_pipeline.wait_products_file scheduled__2025-01-01T01:00:00+00:00 [queued]>
+[2025-12-08T14:58:47.579+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: shopverse_daily_pipeline.wait_products_file scheduled__2025-01-01T01:00:00+00:00 [queued]>
+[2025-12-08T14:58:47.579+0530] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2025-12-08T14:58:47.584+0530] {taskinstance.py:1382} INFO - Executing <Task(FileSensor): wait_products_file> on 2025-01-01 01:00:00+00:00
+[2025-12-08T14:58:47.587+0530] {standard_task_runner.py:57} INFO - Started process 14343 to run task
+[2025-12-08T14:58:47.592+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'shopverse_daily_pipeline', 'wait_products_file', 'scheduled__2025-01-01T01:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/shopverse_daily_pipeline.py', '--cfg-path', '/var/folders/0m/k_9_7kw56svf7_nstcht_jzw0000gn/T/tmp6pxd0sxm']
+[2025-12-08T14:58:47.593+0530] {standard_task_runner.py:85} INFO - Job 7: Subtask wait_products_file
+[2025-12-08T14:58:47.620+0530] {task_command.py:416} INFO - Running <TaskInstance: shopverse_daily_pipeline.wait_products_file scheduled__2025-01-01T01:00:00+00:00 [running]> on host pranavis-macbook-air.local
+[2025-12-08T14:58:47.643+0530] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='alert@example.com' AIRFLOW_CTX_DAG_OWNER='shopverse_de' AIRFLOW_CTX_DAG_ID='shopverse_daily_pipeline' AIRFLOW_CTX_TASK_ID='wait_products_file' AIRFLOW_CTX_EXECUTION_DATE='2025-01-01T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-01T01:00:00+00:00'
+[2025-12-08T14:58:47.646+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T14:58:47.646+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T14:58:57.667+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T14:58:57.668+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T14:59:07.687+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T14:59:07.691+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T14:59:17.710+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T14:59:17.712+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T14:59:27.726+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T14:59:27.728+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T14:59:37.741+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T14:59:37.743+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T14:59:47.759+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T14:59:47.760+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T14:59:57.789+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T14:59:57.791+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:00:07.814+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:00:07.817+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:00:17.846+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:00:17.851+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:00:27.876+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:00:27.877+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:00:37.885+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:00:37.886+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:00:47.902+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:00:47.904+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:00:57.923+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:00:57.926+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:01:07.946+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:01:07.948+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:01:17.969+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:01:17.972+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:01:27.986+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:01:27.988+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:01:38.003+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:01:38.006+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:01:48.038+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:01:48.043+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:01:58.064+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:01:58.066+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:02:08.083+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:02:08.089+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:02:18.105+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:02:18.110+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:02:28.130+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:02:28.133+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:02:38.156+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:02:38.159+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:02:48.182+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:02:48.184+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:02:58.209+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:02:58.212+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:03:08.237+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:03:08.240+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:03:18.262+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:03:18.265+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:03:28.284+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:03:28.287+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:03:38.304+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:03:38.307+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:03:48.337+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:03:48.341+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:03:58.366+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:03:58.370+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:04:08.391+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:04:08.394+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:04:18.414+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:04:18.417+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:04:28.437+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:04:28.441+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:04:38.461+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:04:38.464+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:04:48.479+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:04:48.482+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:04:58.502+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:04:58.507+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:05:08.528+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:05:08.532+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:05:18.548+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:05:18.551+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:05:28.569+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:05:28.573+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:05:38.599+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:05:38.601+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:05:48.617+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:05:48.623+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:05:58.649+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:05:58.655+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:06:08.673+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:06:08.678+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:06:18.708+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:06:18.714+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:06:28.740+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:06:28.742+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:06:38.767+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:06:38.770+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:06:48.794+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:06:48.798+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:06:58.813+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:06:58.815+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:07:08.835+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:07:08.840+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:07:18.853+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:07:18.858+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:07:28.872+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:07:28.876+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:07:38.902+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:07:38.905+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:07:48.928+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:07:48.938+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250101.csv
+[2025-12-08T15:07:52.679+0530] {taskinstance.py:1632} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-12-08T15:07:52.703+0530] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/sensors/base.py", line 285, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1634, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2025-12-08T15:07:52.708+0530] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=shopverse_daily_pipeline, task_id=wait_products_file, execution_date=20250101T010000, start_date=20251208T093127, end_date=20251208T093752
+[2025-12-08T15:07:52.741+0530] {logging_mixin.py:154} WARNING - /Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/utils/email.py:154 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2025-12-08T15:07:52.742+0530] {configuration.py:1050} WARNING - section/key [smtp/smtp_user] not found in config
+[2025-12-08T15:07:52.743+0530] {email.py:270} INFO - Email alerting: attempt 1
+[2025-12-08T15:07:52.753+0530] {configuration.py:1050} WARNING - section/key [smtp/smtp_user] not found in config
+[2025-12-08T15:07:52.754+0530] {email.py:270} INFO - Email alerting: attempt 1
+[2025-12-08T15:07:52.756+0530] {taskinstance.py:2007} ERROR - Failed to send email to: alert@example.com
+Traceback (most recent call last):
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1518, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode, session=session)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1681, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1744, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/sensors/base.py", line 285, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1634, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2420, in email_alert
+    send_email(task.email, subject, html_content)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/utils/email.py", line 154, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/utils/email.py", line 272, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/utils/email.py", line 316, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 857, in create_connection
+    raise err
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 845, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2005, in handle_failure
+    self.email_alert(error, task)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2422, in email_alert
+    send_email(task.email, subject, html_content_err)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/utils/email.py", line 154, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/utils/email.py", line 272, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/utils/email.py", line 316, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 857, in create_connection
+    raise err
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 845, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+[2025-12-08T15:07:52.771+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 7 for task wait_products_file (Task received SIGTERM signal; 14343)

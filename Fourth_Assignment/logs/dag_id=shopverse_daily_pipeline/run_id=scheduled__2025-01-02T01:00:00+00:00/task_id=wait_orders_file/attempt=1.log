@@ -1,0 +1,127 @@
+[2025-12-08T15:26:46.662+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: shopverse_daily_pipeline.wait_orders_file scheduled__2025-01-02T01:00:00+00:00 [queued]>
+[2025-12-08T15:26:46.665+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: shopverse_daily_pipeline.wait_orders_file scheduled__2025-01-02T01:00:00+00:00 [queued]>
+[2025-12-08T15:26:46.666+0530] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2025-12-08T15:26:46.671+0530] {taskinstance.py:1382} INFO - Executing <Task(FileSensor): wait_orders_file> on 2025-01-02 01:00:00+00:00
+[2025-12-08T15:26:46.675+0530] {standard_task_runner.py:57} INFO - Started process 15476 to run task
+[2025-12-08T15:26:46.681+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'shopverse_daily_pipeline', 'wait_orders_file', 'scheduled__2025-01-02T01:00:00+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/shopverse_daily_pipeline.py', '--cfg-path', '/var/folders/0m/k_9_7kw56svf7_nstcht_jzw0000gn/T/tmpab004uq_']
+[2025-12-08T15:26:46.682+0530] {standard_task_runner.py:85} INFO - Job 19: Subtask wait_orders_file
+[2025-12-08T15:26:46.704+0530] {task_command.py:416} INFO - Running <TaskInstance: shopverse_daily_pipeline.wait_orders_file scheduled__2025-01-02T01:00:00+00:00 [running]> on host pranavis-macbook-air.local
+[2025-12-08T15:26:46.726+0530] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='alert@example.com' AIRFLOW_CTX_DAG_OWNER='shopverse_de' AIRFLOW_CTX_DAG_ID='shopverse_daily_pipeline' AIRFLOW_CTX_TASK_ID='wait_orders_file' AIRFLOW_CTX_EXECUTION_DATE='2025-01-02T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-02T01:00:00+00:00'
+[2025-12-08T15:26:46.730+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:26:46.730+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:26:56.747+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:26:56.749+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:27:06.777+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:27:06.781+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:27:16.804+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:27:16.809+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:27:26.827+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:27:26.832+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:27:36.851+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:27:36.853+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:27:46.884+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:27:46.888+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:27:56.909+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:27:56.911+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:28:06.928+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:28:06.930+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:28:16.951+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:28:16.956+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:28:26.983+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:28:26.985+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:28:37.008+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:28:37.010+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:28:47.036+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:28:47.038+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:28:57.065+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:28:57.067+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:29:07.088+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:29:07.092+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:29:17.107+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:29:17.109+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:29:27.131+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:29:27.133+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:29:37.149+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:29:37.155+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:29:47.169+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:29:47.171+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/orders/orders_20250102.json
+[2025-12-08T15:29:54.992+0530] {taskinstance.py:1632} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-12-08T15:29:55.028+0530] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/sensors/base.py", line 285, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1634, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2025-12-08T15:29:55.034+0530] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=shopverse_daily_pipeline, task_id=wait_orders_file, execution_date=20250102T010000, start_date=20251208T095918, end_date=20251208T095955
+[2025-12-08T15:29:55.047+0530] {logging_mixin.py:154} WARNING - /Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/utils/email.py:154 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2025-12-08T15:29:55.047+0530] {configuration.py:1050} WARNING - section/key [smtp/smtp_user] not found in config
+[2025-12-08T15:29:55.048+0530] {email.py:270} INFO - Email alerting: attempt 1
+[2025-12-08T15:29:55.050+0530] {configuration.py:1050} WARNING - section/key [smtp/smtp_user] not found in config
+[2025-12-08T15:29:55.051+0530] {email.py:270} INFO - Email alerting: attempt 1
+[2025-12-08T15:29:55.051+0530] {taskinstance.py:2007} ERROR - Failed to send email to: alert@example.com
+Traceback (most recent call last):
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1518, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode, session=session)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1681, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1744, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/sensors/base.py", line 285, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1634, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2420, in email_alert
+    send_email(task.email, subject, html_content)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/utils/email.py", line 154, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/utils/email.py", line 272, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/utils/email.py", line 316, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 857, in create_connection
+    raise err
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 845, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2005, in handle_failure
+    self.email_alert(error, task)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2422, in email_alert
+    send_email(task.email, subject, html_content_err)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/utils/email.py", line 154, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/utils/email.py", line 272, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/utils/email.py", line 316, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 857, in create_connection
+    raise err
+  File "/opt/homebrew/Cellar/python@3.10/3.10.19_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 845, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+[2025-12-08T15:29:55.058+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 19 for task wait_orders_file (Task received SIGTERM signal; 15476)

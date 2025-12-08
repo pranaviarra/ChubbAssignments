@@ -1,0 +1,253 @@
+[2025-12-08T14:25:01.510+0530] {processor.py:157} INFO - Started process (PID=12347) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:25:01.511+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:25:01.512+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:25:01.512+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:25:01.681+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:25:01.678+0530] {dagbag.py:346} ERROR - Failed to import: /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+Traceback (most recent call last):
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py", line 244, in <module>
+    dag = shopverse_daily_pipeline()
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/dag.py", line 3843, in factory
+    f(**f_kwargs)
+  File "/Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py", line 30, in shopverse_daily_pipeline
+    base_path = Variable.get("shopverse_data_base_path")
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/variable.py", line 140, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable shopverse_data_base_path does not exist'
+[2025-12-08T14:25:01.681+0530] {processor.py:841} WARNING - No viable dags retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:25:01.692+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.183 seconds
+[2025-12-08T14:25:40.119+0530] {processor.py:157} INFO - Started process (PID=12381) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:25:40.120+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:25:40.121+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:25:40.121+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:25:40.292+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:25:40.287+0530] {dagbag.py:346} ERROR - Failed to import: /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+Traceback (most recent call last):
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py", line 244, in <module>
+    dag = shopverse_daily_pipeline()
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/dag.py", line 3843, in factory
+    f(**f_kwargs)
+  File "/Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py", line 30, in shopverse_daily_pipeline
+    base_path = Variable.get("shopverse_data_base_path")
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/variable.py", line 140, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable shopverse_data_base_path does not exist'
+[2025-12-08T14:25:40.292+0530] {processor.py:841} WARNING - No viable dags retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:25:40.302+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.184 seconds
+[2025-12-08T14:27:17.077+0530] {processor.py:157} INFO - Started process (PID=12502) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:27:17.078+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:27:17.079+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:27:17.079+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:27:17.201+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:27:17.199+0530] {dagbag.py:346} ERROR - Failed to import: /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+Traceback (most recent call last):
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py", line 244, in <module>
+    dag = shopverse_daily_pipeline()
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/dag.py", line 3843, in factory
+    f(**f_kwargs)
+  File "/Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py", line 30, in shopverse_daily_pipeline
+    base_path = Variable.get("shopverse_data_base_path")
+  File "/Users/ramesharra/airflow310/lib/python3.10/site-packages/airflow/models/variable.py", line 140, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable shopverse_data_base_path does not exist'
+[2025-12-08T14:27:17.201+0530] {processor.py:841} WARNING - No viable dags retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:27:17.207+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.131 seconds
+[2025-12-08T14:28:22.068+0530] {processor.py:157} INFO - Started process (PID=12561) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:28:22.069+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:28:22.072+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:28:22.071+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:28:22.232+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:28:22.671+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:28:22.671+0530] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-08T14:28:22.678+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:28:22.678+0530] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-08T14:28:22.682+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:28:22.682+0530] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-08T14:28:22.682+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:28:22.682+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:28:22.690+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:28:22.689+0530] {dag.py:2963} INFO - Creating ORM DAG for shopverse_daily_pipeline
+[2025-12-08T14:28:22.695+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:28:22.695+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:28:22.706+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.638 seconds
+[2025-12-08T14:28:36.184+0530] {processor.py:157} INFO - Started process (PID=12586) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:28:36.185+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:28:36.186+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:28:36.186+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:28:36.319+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:28:36.323+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:28:36.323+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:28:36.333+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:28:36.333+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:28:36.344+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.160 seconds
+[2025-12-08T14:30:07.815+0530] {processor.py:157} INFO - Started process (PID=12682) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:30:07.817+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:30:07.818+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:30:07.818+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:30:07.947+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:30:07.986+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:30:07.985+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:30:07.995+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:30:07.995+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:30:08.006+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.191 seconds
+[2025-12-08T14:31:09.990+0530] {processor.py:157} INFO - Started process (PID=12748) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:31:09.991+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:31:09.992+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:31:09.992+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:31:10.178+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:31:10.249+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:31:10.249+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:31:10.267+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:31:10.266+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:31:10.284+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.294 seconds
+[2025-12-08T14:32:14.451+0530] {processor.py:157} INFO - Started process (PID=12832) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:32:14.452+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:32:14.453+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:32:14.453+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:32:14.587+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:32:14.630+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:32:14.630+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:32:14.640+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:32:14.640+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:32:14.651+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.200 seconds
+[2025-12-08T14:33:16.371+0530] {processor.py:157} INFO - Started process (PID=12900) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:33:16.372+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:33:16.373+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:33:16.373+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:33:16.511+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:33:16.555+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:33:16.555+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:33:16.565+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:33:16.564+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:33:16.576+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.206 seconds
+[2025-12-08T14:34:16.506+0530] {processor.py:157} INFO - Started process (PID=12965) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:34:16.507+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:34:16.509+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:34:16.509+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:34:16.649+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:34:16.691+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:34:16.691+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:34:16.701+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:34:16.701+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:34:16.713+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.207 seconds
+[2025-12-08T14:35:19.478+0530] {processor.py:157} INFO - Started process (PID=13045) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:35:19.479+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:35:19.481+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:35:19.481+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:35:19.626+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:35:19.671+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:35:19.671+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:35:19.681+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:35:19.681+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:35:19.693+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.216 seconds
+[2025-12-08T14:36:26.458+0530] {processor.py:157} INFO - Started process (PID=13104) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:36:26.459+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:36:26.461+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:36:26.460+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:36:26.602+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:36:26.644+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:36:26.643+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:36:26.653+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:36:26.653+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:36:26.665+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.207 seconds
+[2025-12-08T14:37:31.004+0530] {processor.py:157} INFO - Started process (PID=13177) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:37:31.006+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:37:31.007+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:37:31.007+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:37:31.144+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:37:31.188+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:37:31.188+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:37:31.198+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:37:31.197+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:37:31.209+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.205 seconds
+[2025-12-08T14:38:39.213+0530] {processor.py:157} INFO - Started process (PID=13250) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:38:39.214+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:38:39.216+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:38:39.216+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:38:39.351+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:38:39.394+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:38:39.394+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:38:39.404+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:38:39.404+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:38:39.416+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.203 seconds
+[2025-12-08T14:39:46.250+0530] {processor.py:157} INFO - Started process (PID=13334) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:39:46.251+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:39:46.253+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:39:46.252+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:39:46.409+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:39:46.453+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:39:46.453+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:39:46.463+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:39:46.463+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:39:46.475+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.225 seconds
+[2025-12-08T14:40:51.467+0530] {processor.py:157} INFO - Started process (PID=13412) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:40:51.468+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:40:51.470+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:40:51.470+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:40:51.611+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:40:51.657+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:40:51.656+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:40:51.666+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:40:51.666+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:40:51.678+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.211 seconds
+[2025-12-08T14:41:58.824+0530] {processor.py:157} INFO - Started process (PID=13503) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:41:58.824+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:41:58.826+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:41:58.826+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:41:58.993+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:41:59.045+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:41:59.045+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:41:59.056+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:41:59.056+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:41:59.069+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.246 seconds
+[2025-12-08T14:43:04.352+0530] {processor.py:157} INFO - Started process (PID=13574) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:43:04.354+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:43:04.355+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:43:04.355+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:43:04.498+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:43:04.542+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:43:04.542+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:43:04.552+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:43:04.552+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:43:04.564+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.212 seconds
+[2025-12-08T14:44:06.034+0530] {processor.py:157} INFO - Started process (PID=13630) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:44:06.034+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:44:06.036+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:44:06.036+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:44:06.177+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:44:06.220+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:44:06.219+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:44:06.229+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:44:06.229+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:44:06.240+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.207 seconds
+[2025-12-08T14:45:11.189+0530] {processor.py:157} INFO - Started process (PID=13697) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:45:11.190+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:45:11.191+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:45:11.191+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:45:11.331+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:45:11.372+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:45:11.372+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:45:11.381+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:45:11.381+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:45:11.393+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.205 seconds
+[2025-12-08T14:46:15.650+0530] {processor.py:157} INFO - Started process (PID=13771) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:46:15.651+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:46:15.653+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:46:15.653+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:46:15.793+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:46:15.836+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:46:15.835+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:46:15.845+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:46:15.845+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:46:15.857+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.207 seconds
+[2025-12-08T14:47:21.589+0530] {processor.py:157} INFO - Started process (PID=13854) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:47:21.590+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:47:21.592+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:47:21.592+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:47:21.765+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:47:21.834+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:47:21.833+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:47:21.844+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:47:21.844+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:47:21.859+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.271 seconds
+[2025-12-08T14:48:30.643+0530] {processor.py:157} INFO - Started process (PID=13933) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:48:30.644+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:48:30.645+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:48:30.645+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:48:30.790+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:48:30.845+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:48:30.845+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:48:30.855+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:48:30.855+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:48:30.869+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.226 seconds
+[2025-12-08T14:49:34.234+0530] {processor.py:157} INFO - Started process (PID=14010) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:49:34.236+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:49:34.237+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:49:34.237+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:49:34.383+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:49:34.759+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:49:34.759+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:49:34.770+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:49:34.770+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:49:34.782+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.548 seconds
+[2025-12-08T14:50:43.238+0530] {processor.py:157} INFO - Started process (PID=14090) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:50:43.239+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:50:43.241+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:50:43.241+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:50:43.390+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:50:43.435+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:50:43.435+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:50:43.446+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:50:43.446+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-01T01:00:00+00:00, run_after=2025-01-02T01:00:00+00:00
+[2025-12-08T14:50:43.459+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.222 seconds
+[2025-12-08T14:59:49.679+0530] {processor.py:157} INFO - Started process (PID=14384) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:59:49.680+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T14:59:49.681+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:59:49.681+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:59:49.781+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T14:59:49.813+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:59:49.813+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T14:59:49.821+0530] {logging_mixin.py:154} INFO - [2025-12-08T14:59:49.821+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-02T01:00:00+00:00, run_after=2025-01-03T01:00:00+00:00
+[2025-12-08T14:59:49.829+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.151 seconds
+[2025-12-08T15:09:23.776+0530] {processor.py:157} INFO - Started process (PID=14743) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T15:09:23.777+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T15:09:23.779+0530] {logging_mixin.py:154} INFO - [2025-12-08T15:09:23.779+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T15:09:23.883+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T15:09:23.921+0530] {logging_mixin.py:154} INFO - [2025-12-08T15:09:23.921+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T15:09:23.929+0530] {logging_mixin.py:154} INFO - [2025-12-08T15:09:23.929+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-03T01:00:00+00:00, run_after=2025-01-04T01:00:00+00:00
+[2025-12-08T15:09:23.938+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.162 seconds
+[2025-12-08T15:27:03.071+0530] {processor.py:157} INFO - Started process (PID=15495) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T15:27:03.072+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T15:27:03.073+0530] {logging_mixin.py:154} INFO - [2025-12-08T15:27:03.073+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T15:27:03.170+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T15:27:03.388+0530] {logging_mixin.py:154} INFO - [2025-12-08T15:27:03.387+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T15:27:03.396+0530] {logging_mixin.py:154} INFO - [2025-12-08T15:27:03.396+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-04T01:00:00+00:00, run_after=2025-01-05T01:00:00+00:00
+[2025-12-08T15:27:03.405+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.335 seconds
+[2025-12-08T15:31:35.585+0530] {processor.py:157} INFO - Started process (PID=15690) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T15:31:35.586+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T15:31:35.587+0530] {logging_mixin.py:154} INFO - [2025-12-08T15:31:35.587+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T15:31:35.728+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T15:31:35.769+0530] {logging_mixin.py:154} INFO - [2025-12-08T15:31:35.769+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T15:31:35.779+0530] {logging_mixin.py:154} INFO - [2025-12-08T15:31:35.779+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-05T01:00:00+00:00, run_after=2025-01-06T01:00:00+00:00
+[2025-12-08T15:31:35.790+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.205 seconds
+[2025-12-08T15:41:54.205+0530] {processor.py:157} INFO - Started process (PID=16125) to work on /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T15:41:54.206+0530] {processor.py:829} INFO - Processing file /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py for tasks to queue
+[2025-12-08T15:41:54.206+0530] {logging_mixin.py:154} INFO - [2025-12-08T15:41:54.206+0530] {dagbag.py:536} INFO - Filling up the DagBag from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T15:41:54.293+0530] {processor.py:839} INFO - DAG(s) dict_keys(['shopverse_daily_pipeline']) retrieved from /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py
+[2025-12-08T15:41:54.322+0530] {logging_mixin.py:154} INFO - [2025-12-08T15:41:54.322+0530] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-08T15:41:54.329+0530] {logging_mixin.py:154} INFO - [2025-12-08T15:41:54.328+0530] {dag.py:3722} INFO - Setting next_dagrun for shopverse_daily_pipeline to 2025-01-06T01:00:00+00:00, run_after=2025-01-07T01:00:00+00:00
+[2025-12-08T15:41:54.336+0530] {processor.py:179} INFO - Processing /Users/ramesharra/airflow/dags/shopverse_daily_pipeline.py took 0.132 seconds

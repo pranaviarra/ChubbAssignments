@@ -1,0 +1,134 @@
+[2025-12-08T15:41:55.399+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: shopverse_daily_pipeline.wait_products_file scheduled__2025-01-03T01:00:00+00:00 [queued]>
+[2025-12-08T15:41:55.401+0530] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: shopverse_daily_pipeline.wait_products_file scheduled__2025-01-03T01:00:00+00:00 [queued]>
+[2025-12-08T15:41:55.401+0530] {taskinstance.py:1361} INFO - Starting attempt 2 of 2
+[2025-12-08T15:41:55.406+0530] {taskinstance.py:1382} INFO - Executing <Task(FileSensor): wait_products_file> on 2025-01-03 01:00:00+00:00
+[2025-12-08T15:41:55.408+0530] {standard_task_runner.py:57} INFO - Started process 16132 to run task
+[2025-12-08T15:41:55.412+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'shopverse_daily_pipeline', 'wait_products_file', 'scheduled__2025-01-03T01:00:00+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/shopverse_daily_pipeline.py', '--cfg-path', '/var/folders/0m/k_9_7kw56svf7_nstcht_jzw0000gn/T/tmpim1k_miv']
+[2025-12-08T15:41:55.413+0530] {standard_task_runner.py:85} INFO - Job 34: Subtask wait_products_file
+[2025-12-08T15:41:55.433+0530] {task_command.py:416} INFO - Running <TaskInstance: shopverse_daily_pipeline.wait_products_file scheduled__2025-01-03T01:00:00+00:00 [running]> on host pranavis-macbook-air.local
+[2025-12-08T15:41:55.452+0530] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='alert@example.com' AIRFLOW_CTX_DAG_OWNER='shopverse_de' AIRFLOW_CTX_DAG_ID='shopverse_daily_pipeline' AIRFLOW_CTX_TASK_ID='wait_products_file' AIRFLOW_CTX_EXECUTION_DATE='2025-01-03T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-03T01:00:00+00:00'
+[2025-12-08T15:41:55.454+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:41:55.455+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:42:05.474+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:42:05.476+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:42:15.500+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:42:15.502+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:42:25.518+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:42:25.523+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:42:35.537+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:42:35.539+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:42:45.558+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:42:45.561+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:42:55.576+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:42:55.577+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:43:05.597+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:43:05.600+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:43:15.620+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:43:15.623+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:43:25.651+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:43:25.654+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:43:35.679+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:43:35.681+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:43:45.707+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:43:45.709+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:43:55.733+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:43:55.736+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:44:05.755+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:44:05.757+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:44:15.782+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:44:15.784+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:44:25.804+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:44:25.807+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:44:35.827+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:44:35.829+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:44:45.850+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:44:45.852+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:44:55.878+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:44:55.883+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:45:05.912+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:45:05.914+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:45:15.929+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:45:15.931+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:45:25.946+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:45:25.950+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:45:35.967+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:45:35.969+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:45:45.988+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:45:45.990+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:45:56.014+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:45:56.017+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:46:06.036+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:46:06.039+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:46:16.060+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:46:16.062+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:46:26.083+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:46:26.085+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:46:36.115+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:46:36.117+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:46:46.124+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:46:46.125+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:46:56.142+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:46:56.146+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:47:06.156+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:47:06.158+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:47:16.168+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:47:16.171+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:47:26.192+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:47:26.196+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:47:36.216+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:47:36.221+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:47:46.253+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:47:46.256+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:47:56.279+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:47:56.281+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:48:06.311+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:48:06.314+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:48:16.326+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:48:16.328+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:48:26.349+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:48:26.351+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:48:36.370+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:48:36.372+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:48:46.394+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:48:46.397+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:48:56.421+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:48:56.424+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:49:06.441+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:49:06.443+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:49:16.463+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:49:16.466+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:49:26.513+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:49:26.516+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:49:36.534+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:49:36.539+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:49:46.557+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:49:46.561+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:49:56.588+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:49:56.590+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:50:06.618+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:50:06.622+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:50:16.653+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:50:16.655+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:50:26.686+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:50:26.691+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:50:36.713+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:50:36.715+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:50:46.736+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:50:46.740+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:50:56.757+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:50:56.759+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:51:06.780+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:51:06.782+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:51:16.801+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:51:16.804+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:51:26.827+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:51:26.829+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:51:36.872+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:51:36.875+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:51:46.897+0530] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2025-12-08T15:51:46.898+0530] {filesystem.py:64} INFO - Poking for file /Users/ramesharra/airflow/data/shopverse/landing/products/products_20250103.csv
+[2025-12-08T15:51:49.913+0530] {local_task_job_runner.py:294} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2025-12-08T15:51:49.920+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 16132. PIDs of all processes in the group: [16132]
+[2025-12-08T15:51:49.920+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 16132
+[2025-12-08T15:51:49.921+0530] {taskinstance.py:1632} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-12-08T15:51:49.974+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=16132, status='terminated', exitcode=0, started='15:41:55') (16132) terminated with exit code 0
