@@ -179,7 +179,7 @@ def shopverse_daily_pipeline():
         hook = PostgresHook(postgres_conn_id="postgres_dwh")
         count = hook.get_first("SELECT COUNT(*) FROM dim_customers")[0]
         if count == 0:
-            raise ValueError("❌ Data Quality Failed: dim_customers is empty!")
+            raise ValueError("Data Quality Failed: dim_customers is empty!")
         return count
 
     @task
@@ -187,7 +187,7 @@ def shopverse_daily_pipeline():
         hook = PostgresHook(postgres_conn_id="postgres_dwh")
         count = hook.get_first("SELECT COUNT(*) FROM fact_orders WHERE order_date = CURRENT_DATE")[0]
         if count == 0:
-            raise ValueError("❌ Data Quality Failed: fact_orders has no valid records!")
+            raise ValueError("Data Quality Failed: fact_orders has no valid records!")
         return count
 
     @task
@@ -199,7 +199,7 @@ def shopverse_daily_pipeline():
             WHERE customer_id IS NULL OR product_id IS NULL
         """)[0]
         if bad > 0:
-            raise ValueError("❌ Data Quality Failed: fact_orders contains NULL keys!")
+            raise ValueError("Data Quality Failed: fact_orders contains NULL keys!")
         return bad
 
     # ---- BRANCHING ---- #
