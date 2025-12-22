@@ -1,0 +1,11 @@
+store_id,store_name,region,country
+STR001,Hyderabad Central,South,India
+STR002,Bangalore Mall,South,India
+STR003,Mumbai High Street,West,India
+STR004,New York Downtown,East,USA
+STR005,San Francisco Bay,West,USA
+STR006,London Oxford Street,Europe,UK
+STR007,Berlin Mitte,Europe,Germany
+STR008,Singapore Orchard,APAC,Singapore
+STR009,Sydney Central,APAC,Australia
+STR010,Tokyo Shibuya,APAC,Japan

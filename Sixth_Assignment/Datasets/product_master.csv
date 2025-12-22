@@ -1,0 +1,11 @@
+product_id,product_name,category,brand,standard_price
+PRD101,iPhone 14,Electronics,Apple,999.0
+PRD102,Galaxy S23,Electronics,Samsung,899.0
+PRD103,AirPods Pro,Accessories,Apple,249.0
+PRD104,Nike Air Max,Sportswear,Nike,199.5
+PRD105,Adidas Ultraboost,Sportswear,Adidas,180.0
+PRD106,Levi's Jeans,Apparel,Levis,79.99
+PRD107,Sony Headphones,Electronics,Sony,299.0
+PRD108,Dell XPS 13,Electronics,Dell,1299.0
+PRD109,HP Pavilion,Electronics,HP,999.0
+PRD110,Apple Watch,Wearables,Apple,399.0
