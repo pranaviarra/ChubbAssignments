@@ -214,19 +214,15 @@ Setup of Airflow:
 
 4️⃣ Create Airflow Admin User
 
-`airflow users create \`
-
-`--username admin \ `
-
-`--password admin \ `
-
-`--firstname Admin \ `
-
-`--lastname User \ `
-
-`--role Admin \ `
-
-`--email admin@example.com`
+```
+airflow users create \
+--username admin \ 
+--password admin \ 
+--firstname Admin \ 
+--lastname User \ 
+--role Admin \ 
+--email admin@example.com
+```
 
 5️⃣ Start Airflow Services
 
@@ -428,36 +424,16 @@ Supports:
 
 The scheduling strategy can be defined in the DAG code. 
 
-``` with DAG(
-    dag_id="global_trade_pipeline",
+```
+with DAG(
+  dag_id="global_trade_pipeline",
     start_date=datetime(2023, 1, 1),
     schedule_interval=None,
     catchup=False,
     description="Bronze -> Silver -> Gold Databricks Pipeline",
-    tags=["capstone", "databricks"] ```
-
+    tags=["capstone", "databricks"]
+)
+```
 The schedule_interval can be changed to @daily, @weekly for scheduled execution. None represents manual triggering.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<hr>
 
