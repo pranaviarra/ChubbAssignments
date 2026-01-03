@@ -154,21 +154,21 @@ Technology: Aggregations + Window Functions
 
 ✔️ Gold Tables Created
 
-Table	                          Purpose
+Table	 &emsp;                         Purpose
 
-gold_country_performance	      Top exporting countries with ranking
+gold_country_performance	   &emsp;   Top exporting countries with ranking
 
-gold_product_performance	      Product-wise performance
+gold_product_performance	  &emsp;    Product-wise performance
 
-gold_region_performance	        Region-level analytics
+gold_region_performance	    &emsp;    Region-level analytics
 
-gold_country_growth_trends	    YoY growth %
+gold_country_growth_trends	  &emsp;  YoY growth %
 
-gold_product_growth_trends	    Product YoY growth
+gold_product_growth_trends	  &emsp;  Product YoY growth
 
-gold_region_product_matrix	    Region vs Product export trends
+gold_region_product_matrix	  &emsp;  Region vs Product export trends
 
-gold_emerging_markets	          Countries growing consistently
+gold_emerging_markets	      &emsp;    Countries growing consistently
 
 These datasets are analytics ready and directly consumed by Power BI.
 
