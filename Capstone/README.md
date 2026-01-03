@@ -48,5 +48,54 @@ Workflow is scheduled and controlled using Apache Airflow, and Unity Catalog lin
 
 1️⃣ Global Export Fact Dataset
 
+The schema of this dataset is:
+
+Country_Name
+
+Country_Code
+
+Year
+
+Month
+
+Product_Code
+
+Product_Name
+
+Product_Category
+
+Region
+
+Export_Value_USD
+
+Export_Units
+
+
+2️⃣ Country Reference Dataset
+
+The schema of this datset is:
+
+Country_Code
+
+Country_Name
+
+Region
+
+3️⃣ Product Reference Dataset
+
+The schema of this dataset is:
+
+Product_Code
+
+Product_Name
+
+Product_Category
+
+The two reference datasets are used so that they act as trusted lookup that ensure the fact data is consistent, accurate, and standardized.
+
+The datasets are initially stored in the unity catalog of databricks. It uses built-in storage "Volumes" to store the datasets. The URL path looks something like "/Volumes/capstone/default/datasets/".
+
+
+
 
 
