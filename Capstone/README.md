@@ -154,7 +154,7 @@ Technology: Aggregations + Window Functions
 
 ✔️ Gold Tables Created
 
- Table	 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp; Purpose
+ Table	 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp; Purpose
 
 gold_country_performance &emsp;&emsp;&nbsp;&ensp;   Top exporting countries with ranking
 
