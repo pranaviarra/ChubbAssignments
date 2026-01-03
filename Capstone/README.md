@@ -199,6 +199,14 @@ Setup of Airflow:
 
 -> Virtual Environment (recommended)
 
+✔️ Stable setup of Airflow
+
+-> Airflow 2.9.3
+
+-> Databricks provider 4.0.0
+
+-> Python 3.10
+
 1️⃣ Create and Activate Virtual Environment
 
 `python3 -m venv airflow310`
@@ -207,7 +215,7 @@ Setup of Airflow:
 
 2️⃣ Install Airflow & Databricks Provider
 
-`pip install "apache-airflow==2.7.3"`
+`pip install "apache-airflow==2.9.3"`
 `pip install apache-airflow-providers-databricks`
 
 3️⃣ Initialize Airflow
