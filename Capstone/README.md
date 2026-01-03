@@ -1,4 +1,4 @@
-**World Exports & Global Trade Performance Analytics Platform**
+🚢 **World Exports & Global Trade Performance Analytics Platform**
 
 **Technologies Used:-** *Azure Databricks | Apache Airflow | Delta Lake | Spark | Power BI*
 
@@ -39,6 +39,13 @@ GOLD    ➡️ Business & Analytics Layer
 ⬇️
         
 POWER BI Dashboards
+
+Workflow is scheduled and controlled using Apache Airflow, and Unity Catalog lineage tracks data flow from Bronze → Silver → Gold.
+
+<hr>
+
+***🧾 Dataset Description***
+
 
 
 
