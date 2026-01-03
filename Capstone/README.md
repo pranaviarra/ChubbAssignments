@@ -214,12 +214,12 @@ Setup of Airflow:
 
 4️⃣ Create Airflow Admin User
 
-`airflow users create \
---username admin \
---password admin \
---firstname Admin \
---lastname User \
---role Admin \
+`airflow users create \ <br>
+--username admin \ <br>
+--password admin \ <br>
+--firstname Admin \ <br>
+--lastname User \ <br>
+--role Admin \ <br>
 --email admin@example.com`
 
 5️⃣ Start Airflow Services
@@ -252,8 +252,8 @@ Connect Databricks to Airflow:
 
 -> Add notebook task
 
-`Task Name: bronze_task / silver_task / gold_task
-Type: Notebook
+`Task Name: bronze_task / silver_task / gold_task <br>
+Type: Notebook <br>
 Source: Workspace`
 
 -> Select Cluster
@@ -314,6 +314,7 @@ Monitor execution via:
 -> Open the job in Databricks workspace and verify if the job has run or not
 
 -> Open Catalog -> Select a table -> Lineage. You can verify if the table has been updated or not
+<hr>
 
 
 
