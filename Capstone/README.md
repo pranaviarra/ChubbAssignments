@@ -238,6 +238,8 @@ On another terminal / cmd, run
 
 Then access airflow UI on "http://localhost:8080" or on any other port that was mentioned.
 
+<img width="1431" height="571" alt="Screenshot 2026-01-03 at 6 20 39 PM" src="https://github.com/user-attachments/assets/9de5503d-9e0f-425d-8795-0776b172002f" />
+
 Connect Databricks to Airflow:
 
 1️⃣ Create Job
@@ -269,6 +271,8 @@ Connect Databricks to Airflow:
 https://adb-xxxxxxxx/jobs/931572949178308
 This number is the JobID.
 
+<img width="661" height="725" alt="Screenshot 2026-01-03 at 6 24 36 PM" src="https://github.com/user-attachments/assets/557f241d-c044-44e2-9532-41f4b9470bee" />
+
 
 2️⃣ Create Connection on Airflow UI
 
@@ -283,6 +287,9 @@ Fill the details:
 -> Host -	adb-XXXXXXXXXXXX.azuredatabricks.net (It is the workspace url path)
 
 -> Extras -	{ "token": "YOUR_DATABRICKS_PAT_TOKEN" }
+
+<img width="1440" height="855" alt="Screenshot 2026-01-03 at 6 21 13 PM" src="https://github.com/user-attachments/assets/51db879c-fea0-4304-8f81-7737b68996f0" />
+
 
 3️⃣ Add DAG in Airflow
 
