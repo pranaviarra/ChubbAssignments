@@ -1,4 +1,4 @@
-🚢 **World Exports & Global Trade Performance Analytics Platform**
+🚢 **WORLD EXPORTS & GLOBAL TRADE PERFORMANCE ANALYTICS PLATFORM**
 
 **Technologies Used:-** *Azure Databricks | Apache Airflow | Delta Lake | Spark | Power BI*
 
@@ -94,6 +94,32 @@ Product_Category
 The two reference datasets are used so that they act as trusted lookup that ensure the fact data is consistent, accurate, and standardized.
 
 The datasets are initially stored in the unity catalog of databricks. It uses built-in storage "Volumes" to store the datasets. The URL path looks something like "/Volumes/capstone/default/datasets/".
+<hr>
+
+**• DATA PROCESSING**
+
+🔷 Bronze Layer (Raw Ingestion)
+
+Platform: Azure Databricks
+
+Technology: PySpark + Delta Tables
+
+✔️ Responsibilities
+
+-> Read raw CSV files
+
+-> Validate schema
+
+-> Validate country and product references
+
+-> Load into Bronze Delta Tables
+
+Bronze tables are created in
+
+capstone.default.bronze_fact
+capstone.default.bronze_country
+capstone.default.bronze_product
+
 
 
 
