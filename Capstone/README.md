@@ -2,7 +2,7 @@
 
 **Technologies Used:-** *Azure Databricks | Apache Airflow | Spark | Power BI*
 
-**• PROJECT OVERVIEW**
+***• PROJECT OVERVIEW***
 
 This project implements an end-to-end data engineering pipeline to analyze Global Trade Export Performance using the Medallion Architecture (Bronze → Silver → Gold) on Azure Databricks, orchestrated using Apache Airflow, and visualized in Power BI.
 
@@ -18,7 +18,7 @@ The pipeline ingests export datasets, applies validation and cleaning, builds cu
   
   -> Emerging market identification
 
-**• ARCHITECTURE OVERVIEW**
+***• ARCHITECTURE OVERVIEW***
 
 This project follows Medallion Architecture:
 
@@ -96,7 +96,7 @@ The two reference datasets are used so that they act as trusted lookup that ensu
 The datasets are initially stored in the unity catalog of databricks. It uses built-in storage "Volumes" to store the datasets. The URL path looks something like "/Volumes/capstone/default/datasets/".
 <hr>
 
-**• DATA PROCESSING**
+***• DATA PROCESSING***
 
 🔷 Bronze Layer (Raw Ingestion)
 
@@ -150,7 +150,7 @@ Result: trusted standardized dataset
 
 Platform: Azure Databricks
 
-Technology: Aggregations + Window Functions
+Technology: Grouping, Filtering, and Aggregation  
 
 ✔️ Gold Tables Created
 
@@ -171,6 +171,13 @@ gold_region_product_matrix &emsp;&emsp;  Region vs Product export trends
 gold_emerging_markets &emsp;&emsp;&emsp;&emsp;    Countries growing consistently
 
 These datasets are analytics ready and directly consumed by Power BI.
+<hr>
+
+***🌀 AIRFLOW ORCHESTRATION***
+
+Platform: Apache Airflow
+
+Purpose: Execute pipeline in order with dependencies
 
 
 
