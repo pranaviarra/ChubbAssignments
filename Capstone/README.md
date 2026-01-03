@@ -170,6 +170,8 @@ gold_region_product_matrix &emsp;&emsp;  Region vs Product export trends
 
 gold_emerging_markets &emsp;&emsp;&emsp;&emsp;    Countries growing consistently
 
+<img width="356" height="680" alt="Screenshot 2026-01-03 at 6 19 04 PM" src="https://github.com/user-attachments/assets/2ab168d3-7a5b-47e6-b288-73de30d4e1b4" />
+
 These datasets are analytics ready and directly consumed by Power BI.
 <hr>
 
