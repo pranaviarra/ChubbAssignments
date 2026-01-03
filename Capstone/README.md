@@ -1,6 +1,6 @@
 🚢 **WORLD EXPORTS & GLOBAL TRADE PERFORMANCE ANALYTICS PLATFORM**
 
-**Technologies Used:-** *Azure Databricks | Apache Airflow | Delta Lake | Spark | Power BI*
+**Technologies Used:-** *Azure Databricks | Apache Airflow | Spark | Power BI*
 
 **• PROJECT OVERVIEW**
 
@@ -117,8 +117,53 @@ Technology: PySpark + Delta Tables
 Bronze tables are created in
 
 capstone.default.bronze_fact
+
 capstone.default.bronze_country
+
 capstone.default.bronze_product
+
+🔶 Silver Layer (Data Cleaning & Standardization)
+
+Platform: Azure Databricks
+
+Technology: PySpark Transformations
+
+✔️ Responsibilities
+
+-> Remove null critical fields
+
+-> Remove negative values
+
+-> Standardize country / product attributes using references
+
+-> Remove duplicates
+
+-> Cast to correct data types
+
+The silver is created in 
+
+capstone.default.silver_fact
+
+Result: trusted standardized dataset
+
+🟡 Gold Layer (Analytics & Business Layer)
+
+Platform: Azure Databricks
+
+Technology: Aggregations + Window Functions
+
+✔️ Gold Tables Created
+
+Table	                          Purpose
+gold_country_performance	      Top exporting countries with ranking
+gold_product_performance	      Product-wise performance
+gold_region_performance	        Region-level analytics
+gold_country_growth_trends	    YoY growth %
+gold_product_growth_trends	    Product YoY growth
+gold_region_product_matrix	    Region vs Product export trends
+gold_emerging_markets	          Countries growing consistently
+
+These datasets are analytics ready and directly consumed by Power BI.
 
 
 
