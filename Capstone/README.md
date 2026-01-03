@@ -322,7 +322,77 @@ Monitor execution via:
 -> Open the job in Databricks workspace and verify if the job has run or not
 
 -> Open Catalog -> Select a table -> Lineage. You can verify if the table has been updated or not
+
+✔️ Benefits
+
+-> Full automation
+
+-> Dependency control
+
+-> Logs & monitoring
+
+-> Retries & scheduling capability
 <hr>
+
+***📊 Power BI Dashboard***
+
+The final Gold tables are visualized using Power BI.
+
+We connect Power BI to Databricks to read analytical tables directly from Unity Catalog.
+
+✔️ Prerequisites
+
+-> Power BI Desktop installed
+
+-> Access to Azure Databricks Workspace
+
+-> Unity Catalog / Delta tables created
+
+-> Personal Access Token (PAT)
+
+How to generate PAT in Databricks??
+
+User Settings → Developer → Access Tokens → Generate Token
+
+
+🔗 Connect Power BI to Databricks Cluster
+
+-> Open Power BI → Get Data
+
+-> Search Azure Databricks
+
+-> Add the PAT in the following steps and click Connect
+
+-> Select the tables that you would like to load. Click "Load Data"
+
+✔️ Key Dashboards
+
+Country Export Leaderboard
+
+Product Performance Trends
+
+Region Export Comparison
+
+Growth & Decline Analysis
+
+Emerging Markets Report
+
+✔️ Insights Delivered
+
+Which countries dominate exports?
+
+Which products drive maximum revenue?
+
+Which regions perform best?
+
+Who is growing consistently?
+
+<hr>
+
+
+
+
+
 
 
 
