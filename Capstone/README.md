@@ -2,7 +2,7 @@
 
 **Technologies Used:-** *Azure Databricks | Apache Airflow | Delta Lake | Spark | Power BI*
 
-**• Project Overview**
+**• PROJECT OVERVIEW**
 
 This project implements an end-to-end data engineering pipeline to analyze Global Trade Export Performance using the Medallion Architecture (Bronze → Silver → Gold) on Azure Databricks, orchestrated using Apache Airflow, and visualized in Power BI.
 
@@ -17,5 +17,19 @@ The pipeline ingests export datasets, applies validation and cleaning, builds cu
   -> Year-over-year growth trends
   
   -> Emerging market identification
-  
+
+**• ARCHITECTURE OVERVIEW**
+
+This project follows Medallion Architecture:
+
+Raw Source Data
+        ↓
+BRONZE  → Raw Ingestion Layer
+        ↓
+SILVER  → Cleaned & Standardized Layer
+        ↓
+GOLD    → Business & Analytics Layer
+        ↓
+POWER BI Dashboards
+
 
