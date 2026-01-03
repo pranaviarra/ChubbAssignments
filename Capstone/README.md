@@ -366,9 +366,20 @@ User Settings → Developer → Access Tokens → Generate Token
 
 -> Search Azure Databricks
 
+-> Go to SQL Warehouses in Databricks and select the current compute
+
+-> Go to "Connection Details" and copy paste the Server Hostname and HTTP Path in powerBI
+
 -> Add the PAT in the following steps and click Connect
 
 -> Select the tables that you would like to load. Click "Load Data"
+
+<img width="837" height="806" alt="image" src="https://github.com/user-attachments/assets/f6c72534-ccbc-4fb9-bcdf-744e780292b6" />
+<img width="854" height="680" alt="image" src="https://github.com/user-attachments/assets/1c35f183-3e14-4ed0-8818-90246184f53b" />
+<img width="1204" height="739" alt="Screenshot 2026-01-03 at 6 38 57 PM" src="https://github.com/user-attachments/assets/4aecc72c-fc2d-4957-a07a-7d884317f613" />
+
+
+
 
 ✔️ Key Dashboards
 
