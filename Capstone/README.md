@@ -215,11 +215,17 @@ Setup of Airflow:
 4️⃣ Create Airflow Admin User
 
 `airflow users create \`
+
 `--username admin \ `
+
 `--password admin \ `
+
 `--firstname Admin \ `
+
 `--lastname User \ `
+
 `--role Admin \ `
+
 `--email admin@example.com`
 
 5️⃣ Start Airflow Services
@@ -253,7 +259,9 @@ Connect Databricks to Airflow:
 -> Add notebook task
 
 `Task Name: bronze_task / silver_task / gold_task`
+
 `Type: Notebook `
+
 `Source: Workspace`
 
 -> Select Cluster
