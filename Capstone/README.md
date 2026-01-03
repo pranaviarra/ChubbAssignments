@@ -23,9 +23,7 @@ The pipeline ingests export datasets, applies validation and cleaning, builds cu
 This project follows Medallion Architecture:
 
 Raw Source Data
-
-⬇️
-        
+⬇️        
 BRONZE  ➡️ Raw Ingestion Layer
 
 ⬇️
