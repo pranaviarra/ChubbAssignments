@@ -160,7 +160,7 @@ gold_country_performance &emsp;&emsp;   Top exporting countries with ranking
 
 gold_product_performance &emsp;&emsp;    Product-wise performance
 
-gold_region_performance &emsp;&emsp;&ensp;    Region-level analytics
+gold_region_performance &emsp;&emsp;&ensp;&emsp;    Region-level analytics
 
 gold_country_growth_trends&emsp;&emsp;  YoY growth %
 
@@ -168,7 +168,7 @@ gold_product_growth_trends&emsp;&emsp;  Product YoY growth
 
 gold_region_product_matrix &emsp;&emsp;  Region vs Product export trends
 
-gold_emerging_markets &emsp;&emsp;&emsp;    Countries growing consistently
+gold_emerging_markets &emsp;&emsp;&emsp;&emsp;    Countries growing consistently
 
 These datasets are analytics ready and directly consumed by Power BI.
 
