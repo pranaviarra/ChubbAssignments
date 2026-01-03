@@ -156,13 +156,13 @@ Technology: Aggregations + Window Functions
 
 Table	 &emsp;  &emsp;&emsp;&emsp;&emsp;                       Purpose
 
-gold_country_performance &emsp;&emsp;   Top exporting countries with ranking
+gold_country_performance &emsp;&emsp;&nbsp;   Top exporting countries with ranking
 
 gold_product_performance &emsp;&emsp;    Product-wise performance
 
-gold_region_performance &emsp;&emsp;&ensp;&emsp;    Region-level analytics
+gold_region_performance &emsp;&emsp;&ensp;&nbsp;    Region-level analytics
 
-gold_country_growth_trends&emsp;&emsp;  YoY growth %
+gold_country_growth_trends&emsp;&emsp;&nbsp;  YoY growth %
 
 gold_product_growth_trends&emsp;&emsp;  Product YoY growth
 
