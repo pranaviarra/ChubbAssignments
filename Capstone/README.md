@@ -465,3 +465,21 @@ with DAG(
 The schedule_interval can be changed to @daily, @weekly for scheduled execution. None represents manual triggering.
 <hr>
 
+***🚀  Run the project end-to-end***
+
+1️⃣ Upload datasets to Databricks Volumes  
+
+2️⃣ Run Bronze Notebook Manually 
+
+3️⃣ Create Databricks Jobs  
+
+4️⃣ Configure Airflow Connection 
+
+5️⃣ Deploy DAG  
+
+6️⃣ Trigger Pipeline  
+
+7️⃣ View Gold Tables in Databricks  
+
+8️⃣ Connect Power BI and Build Dashboard
+
