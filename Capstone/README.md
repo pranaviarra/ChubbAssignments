@@ -389,6 +389,55 @@ Who is growing consistently?
 
 <hr>
 
+***🧠 Data Model — Star Schema***
+
+This project follows a Dimensional Model (Star Schema)
+
+✔️ Fact Table
+
+-> silver_fact
+
+✔️ Dimension Tables
+
+-> Country Dimension
+
+-> Product Dimension
+
+This improves:
+
+-> Query performance
+
+-> BI friendliness
+
+-> Simplicity
+<hr>
+
+🕒 Scheduling Strategy
+
+Currently: Manually triggered via Airflow
+
+Supports:
+
+ -> Daily
+
+-> Weekly
+
+-> Batch / Incremental
+
+-> Event-triggered execution
+
+The scheduling strategy can be defined in the DAG code. 
+
+``` with DAG(
+    dag_id="global_trade_pipeline",
+    start_date=datetime(2023, 1, 1),
+    schedule_interval=None,
+    catchup=False,
+    description="Bronze -> Silver -> Gold Databricks Pipeline",
+    tags=["capstone", "databricks"] ```
+
+The schedule_interval can be changed to @daily, @weekly for scheduled execution. None represents manual triggering.
+
 
 
 
